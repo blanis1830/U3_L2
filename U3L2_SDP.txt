@@ -1,0 +1,4 @@
+Set up your main function so that you are solving 1000! with all three functions. What do you observe about the recursive_factorial() function?
+For factorial and while factorial handle it well, but recursive_factorial gives a recursion error
+In your own words, explain why recursion is a bad choice for large problems. Use your observations from this lab to support your conclusions.
+The depth of recursion continues to grow and stack with input size. It overloads with a massive amount of information and causes recursion error.
